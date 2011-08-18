@@ -1,0 +1,17 @@
+body{ color: #CC0033; background: #fff; font-family: "Trebuchet MS"; font-size: 14pt; }
+span{ display: block; }
+
+.outline { width: 2.5in; height: 3.5in; border: 1px solid #666; text-align: center; padding: 10px; margin: 10px; background: #FFF; float: left; }
+
+.top{ text-align: left; height: 0.5in; line-height: 0.5in; }
+.middle { height: 2.5in; line-height: 2.5in; text-align: center; }
+.bottom { text-align: right; height: 0.5in; line-height: 0.5in; }
+
+.shadow{ box-shadow: 1px 1px 5px #000; -moz-box-shadow: 1px 1px 5px #000; -webkit-box-shadow: 1px 1px 5px #000; }
+.rounded{ border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; }
+
+img { max-width: 1.75in; max-height: 2.5in; vertical-align: middle; }
+
+@media print {
+	.pagebreak { page-break-after: always; clear: both; }
+}
